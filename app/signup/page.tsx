@@ -56,7 +56,10 @@ export default function SignupPage() {
             >
               <div className={styles.form} >
 
-                <h1>Create your PopX account</h1>
+                <div >
+                  <h1 className={styles.higherP} >Create your</h1>
+                  <h1 className={styles.higherP} >PopX account</h1>
+                </div>
                 <TextField
                   fullWidth
                   name="fullName"

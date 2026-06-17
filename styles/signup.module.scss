@@ -3,9 +3,12 @@
     max-width: 550px;
 
     h1 {
+        font-size: clamp(2rem, 4vw, 3rem);
+        font-weight: 500;
+    }
+
+    .higherP:last-child {
         margin-bottom: 30px;
-        font-size: clamp(3.5rem, 4vw, 4rem);
-        font-weight: 400;
     }
 }
 
@@ -29,6 +32,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 100%;
 }
 
 .inputGroup {
@@ -46,4 +50,11 @@
 .error {
     color: #ff4d4f;
     font-size: 12px;
+}
+
+@media (max-width: 595px) {
+    .container {
+        width: 90%;
+        align-items: flex-end;
+    }
 }

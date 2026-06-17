@@ -19,12 +19,14 @@ export default function LoginPage() {
   return (
     <MainLayout>
       <div className={styles.formContainer}>
-        <h1>Signin to your PopX account</h1>
-
-        <p>
-          Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit.
-        </p>
+        <div>
+          <h1 className={styles.higherP} >Signin to your</h1>
+          <h1 className={styles.higherP} >PopX account</h1>
+        </div>
+        <div >
+          <p className={styles.lowerP} >Lorem ipsum dolor sit amet,</p>
+          <p className={styles.lowerP} >consectetur adipiscing elit.</p>
+        </div>
 
         <Formik
           initialValues={{

@@ -15,10 +15,10 @@ export default function Home() {
         <div className={styles.content}>
           <h1>Welcome to PopX</h1>
 
-          <p>
-            Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit.
-          </p>
+          <div>
+            <p className={styles.lowerP} >Lorem ipsum dolor sit amet,</p>
+            <p className={styles.lowerP} >consectetur adipiscing elit.</p>
+          </div>
 
           <div className={styles.buttonsContainer} >
             <Button
@@ -31,7 +31,7 @@ export default function Home() {
                 height: 46,
                 backgroundColor: "#6C25FF",
                 textTransform: "none",
-                width: { md: "49%" }
+                width: { md: "47%" }
               }}
             >
               Create Account
@@ -52,7 +52,7 @@ export default function Home() {
                 "&:hover": {
                   backgroundColor: "#CEBAFB",
                 },
-                width: { md: "49%" }
+                width: { md: "47%" }
 
               }}
             >
