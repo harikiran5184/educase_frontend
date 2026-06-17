@@ -1,0 +1,23 @@
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: #f7f8f9;
+}
+
+.topBar {
+    height: 68px;
+    background: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    padding: 0 24px;
+
+    border-bottom: 1px solid #ececec;
+
+    h2 {
+        font-size: 22px;
+        font-weight: 500;
+        color: #1d2226;
+    }
+}

@@ -1,0 +1,57 @@
+.container {
+  width: 95%;
+  min-height: 80vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.content {
+  width: 100%;
+  max-width: 800px;
+
+  h1 {
+    font-size: clamp(3rem, 4vw, 4rem);
+    margin-bottom: 12px;
+    font-weight: 400;
+
+  }
+
+  p {
+    margin-bottom: 30px;
+    color: #777;
+    line-height: 1.6;
+    font-size: 18px;
+  }
+}
+
+
+
+.loginBtn {
+  margin-top: 12px;
+}
+
+@media (max-width: 595px) {
+  .container {
+    align-items: flex-end;
+  }
+
+  .content {
+
+    p {
+      font-size: 26px;
+    }
+  }
+
+}
+
+@media (min-width: 700px) {
+  .buttonsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}

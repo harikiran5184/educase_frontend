@@ -1,0 +1,49 @@
+.container {
+    width: 95%;
+    max-width: 550px;
+
+    h1 {
+        margin-bottom: 30px;
+        font-size: clamp(3.5rem, 4vw, 4rem);
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 1012px) {
+    .container {
+        height: 100vh;
+        padding: 20px 0;
+    }
+}
+
+.formMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    label {
+        font-size: 14px;
+        font-weight: 500;
+        color: #6c25ff;
+    }
+}
+
+.error {
+    color: #ff4d4f;
+    font-size: 12px;
+}
